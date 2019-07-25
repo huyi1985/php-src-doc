@@ -17,11 +17,12 @@ https://github.com/php/php-src/blob/49a4e695845bf55e059e7f88e54b1111fe284223/Zen
 
 
 ### Parameters
-- c
+1. c
+
 get a character(one character zend string) by its corresponding ASCII code 'c', between 0 and 255, from the pre-defined variable `zend_one_char_string`. 
 
 ## Description
-`zend_one_char_string` stores each ASCII character as a interned zend string, as zend_one_char_string[i] is a one character zend string corresponding the i-th ASCII character.
+`zend_one_char_string` stores each ASCII character into a interned zend string, as `zend_one_char_string[i]` is a one character zend string corresponding the i-th ASCII character.
 
 ## Definition
 
@@ -48,6 +49,6 @@ ZEND_API void zend_interned_strings_init(void)
 ```
 
 ## Categories
-Zend String
+Zend Strings
 
 
